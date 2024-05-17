@@ -9,7 +9,7 @@ case class Conversion(/* you fill this in */)
 // Since we have both a class and an object with the same name (Conversion), these are called
 // *companions* of each other - this is the Scala equivalent of having both non-static stuff
 // (from the class) and static stuff (from the object).
-// 
+//
 // So we can instantiate Conversion in the usual way (using the case class):
 //     val someConversion = Conversion(...)
 // we can call methods on those conversions:
@@ -19,6 +19,7 @@ case class Conversion(/* you fill this in */)
 object Conversion {
   // fill this in
   // val FAHRENHEIT_TO_CELSIUS: Conversion = ...
+  // make sure to provide the function as a lambda - don't just pass in a function you define elsewhere!
 
   // add at least two more of your choice
 
